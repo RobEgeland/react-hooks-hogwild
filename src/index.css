@@ -80,15 +80,17 @@ ul {
 
 
 .pigTile {
-  display: inline;
+  width: 200px;
+  display: block;
   background-repeat: no-repeat;
   background-position: center 90%;
-  float: left;
+  float: center;
   margin: 2%;
-  padding: 1%;
-  outline: #3B0B0B dotted thick;
+  padding: 2%;
   transition: 0.75s;
   opacity: 1;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .minBackgroundSneak {
@@ -138,6 +140,15 @@ ul {
 .footer {
   padding: 1%;
   clear: both;
+}
+
+.uicards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: -0.875em -0.5em;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 
